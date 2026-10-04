@@ -141,13 +141,8 @@ as MATCHED or MISMATCHED.
 
 ## API Documentation
 
-Swagger UI:
-
-http://localhost:9000/swagger-ui.html
-
-OpenAPI specification:
-
-http://localhost:9000/v3/api-docs
+- Swagger UI
+- OpenAPI specification
 
 ## Running the Project
 
@@ -170,10 +165,6 @@ src/main/resources/application.properties
 ### Run
 
 mvn spring-boot:run
-
-Application:
-
-http://localhost:9000
 
 ## Testing
 
