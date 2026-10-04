@@ -1,0 +1,15 @@
+package com.example.payment.entity;
+
+public enum AuditAction {
+    PAYMENT_CREATED,
+    PAYMENT_PROCESSING_STARTED,
+    PAYMENT_SUCCESS,
+    PAYMENT_FAILED,
+    PAYMENT_UNKNOWN,
+    REFUND_CREATED,
+    REFUND_SUCCESS,
+    REFUND_FAILED,
+    WEBHOOK_CREATED,
+    WEBHOOK_DELIVERED,
+    WEBHOOK_FAILED
+}
